@@ -1,0 +1,58 @@
+.bottom-button-div {
+  display: flex;
+  justify-content: space-between;
+}
+.back-button {
+  height: 50px;
+  width: 150px;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 5px;
+  color: #2963ac;
+  border: 2px solid;
+  border-color: #2963ac;
+  justify-content: center;
+  cursor: pointer;
+}
+.back-button > div {
+  display: flex;
+  justify-content: center;
+}
+.back-button > div > p {
+  font-size: 16px;
+  align-self: center;
+  margin-left: 30px;
+}
+.cancel-button {
+  height: 50px;
+  width: 150px;
+  border: 2px solid;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: #aaaaaa;
+  border-color: #aaaaaa;
+  color: white;
+  cursor: pointer;
+}
+.next-button {
+  height: 50px;
+  width: 150px;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 5px;
+  color: #2963ac;
+  border: 2px solid;
+  border-color: #2963ac;
+  justify-content: center;
+  cursor: pointer;
+}
+.next-button > div {
+  display: flex;
+  justify-content: center;
+}
+.next-button > div > p {
+  font-size: 16px;
+  align-self: center;
+  margin-right: 30px;
+}

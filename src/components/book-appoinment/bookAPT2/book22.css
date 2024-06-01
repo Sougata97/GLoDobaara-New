@@ -1,0 +1,30 @@
+.apt22-content{
+    padding: 45px 0;
+}
+.apt22-content .apt22wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apt22-content .apt22-left{
+    width: 15%;
+}
+.apt22-content .apt22-right{
+    width: 80%;
+}
+.apt22-right .apt20name {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+.apt20name img {
+  padding-right: 10px;
+  width: 15px;
+  border-right: 2px solid #5e5e5f;
+}
+.apt20name input {
+  padding-left: 10px;
+}
+.apt22-right fieldset{
+    border-radius: 16px;
+}

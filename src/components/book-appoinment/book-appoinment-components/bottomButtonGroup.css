@@ -1,0 +1,116 @@
+.bottom-button-div {
+  display: flex;
+  justify-content: space-between;
+}
+.back-button {
+  height: 50px;
+  width: 150px;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 16px;
+
+  color: #2963ac;
+  border: 2px solid;
+  border-color: #2963ac;
+  justify-content: center;
+  cursor: pointer;
+}
+.back-button > div {
+  display: flex;
+  justify-content: center;
+}
+.back-button > div > p {
+  font-size: 16px;
+  align-self: center;
+  margin-left: 30px;
+}
+.cancel-button {
+  height: 50px;
+  width: 150px;
+  border: 2px solid;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color: #aaaaaa;
+  border-color: #aaaaaa;
+  color: white;
+  cursor: pointer;
+}
+.next-button {
+  height: 50px;
+  width: 150px;
+  margin-right: 20px;
+  font-size: 16px;
+
+  background-color: #2963ac;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid;
+  border-color: #2963ac;
+  justify-content: center;
+  cursor: pointer;
+}
+.next-button > div {
+  display: flex;
+  justify-content: center;
+}
+.next-button > div > p {
+  font-size: 16px;
+  align-self: center;
+  margin-right: 15px;
+}
+.btgr-icons {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (max-width: 900px) {
+  .bottom-button-div {
+    width: 100%;
+  }
+  .back-button {
+    width: 100px;
+    height: 40px;
+  }
+  .next-button {
+    width: 100px;
+    height: 40px;
+    margin-right: 0;
+  }
+  .cancel-button {
+    width: 100px;
+    height: 40px;
+    margin-right: 05px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .right-buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  .back-button {
+    width: 50px;
+    height: 30px;
+  }
+  .back-button > div > p {
+    font-size: 8px;
+    margin-left: 0;
+  }
+  .next-button {
+    width: 50px;
+    height: 30px;
+  }
+  .next-button > div > p {
+    font-size: 8px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .cancel-button {
+    width: 50px;
+    height: 30px;
+    font-size: 8px;
+  }
+  .btgr-icons {
+    display: none;
+  }
+}

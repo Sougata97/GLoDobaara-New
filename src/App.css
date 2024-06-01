@@ -1,0 +1,71 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --pink: #d84089;
+  --blue: #2969b1;
+  --foot-black: #272828;
+}
+@font-face {
+  font-family: immortal;
+  src: url(../public/the_immortal/The_Immortal/theimmortalexpand.ttf);
+}
+@font-face {
+  font-family: helvel;
+  src: url(../public/HelveticaNeueLTStd-Cn/HelveticaNeueLTStd-Cn.otf);
+}
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.d-flex {
+  display: flex;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

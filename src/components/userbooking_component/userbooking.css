@@ -1,0 +1,104 @@
+.book{
+  padding: 30px 0;
+}
+.userbookText {
+  background-color: var(--white);
+  color: var(--black);
+  text-align: center;
+}
+.userbookText h2 {
+  font-size: 30px !important;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.userbookText p {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.dropdown-container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  position: relative;
+}
+
+.dropdown {
+  border: 1px solid black;
+  width: 100%;
+  border-bottom: none;
+  box-sizing: border-box;
+  position: absolute;
+  display: none;
+}
+
+.dropdown.visible {
+  display: block;
+}
+
+.option {
+  height: 36px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.option:hover {
+  background-color: royalblue;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-container input {
+  width: 100%;
+    padding: 0;
+    padding: 10px 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+}
+
+.input-arrow-container {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 10px;
+}
+
+.input-arrow {
+  border: solid var(--blue);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  font-size: 20px;
+}
+
+.input-clean-container {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: -2px;
+  cursor: pointer;
+}
+
+.input-clean {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

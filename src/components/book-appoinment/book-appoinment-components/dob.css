@@ -1,0 +1,29 @@
+.div-dob {
+  display: flex;
+  justify-content: left;
+  position: relative;
+  width: 23%;
+  height:50px;
+  border-radius:20px;
+}
+.user-dob{
+  margin-top:-2%;
+}
+.legend-dob{
+  margin-left: 4%;
+}
+.dob-bar{
+  border-left:2px solid black;
+  height:25px;
+  position:relative;
+  left: 6%;
+}
+.dob-place{
+  margin-left: 15%;
+  outline: none;
+  font-size: medium;
+  border:none;
+}
+.dob-drop{
+  margin-top:-2%;
+}

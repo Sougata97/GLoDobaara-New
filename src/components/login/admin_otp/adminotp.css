@@ -1,0 +1,136 @@
+.screen {
+  background-color: white;
+}
+.App {
+  background-color: white;
+  width: 75%;
+  height: 75%;
+  top: 12.5%;
+  left: 12.5%;
+  box-shadow: 5px 10px 8px #888888;
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 0.75fr;
+  grid-gap: 20px;
+  background: rgb(216, 64, 137);
+  background: linear-gradient(
+    0deg,
+    rgba(216, 64, 137, 1) 0%,
+    rgba(41, 105, 177, 1) 42%
+  );
+}
+
+.App-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  justify-content: space-between;
+  background-color: transparent;
+  background-image: url("./background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.App-text {
+  width: 40%;
+  background-color: wheat;
+}
+
+.Logo {
+  /*height: 40vmin;*/
+  height: 60px;
+  width: 150px;
+
+  position: absolute;
+}
+
+.App-Bg {
+  width: 100%;
+  height: 100%;
+}
+.App-background {
+  width: 100%;
+  height: 82%;
+}
+
+.h1 {
+  position: absolute;
+  top: 5%;
+  right: 16%;
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+}
+.h2 {
+  position: absolute;
+  top: 20%;
+  right: 11.6%;
+  color: whitesmoke;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.h4 {
+  position: absolute;
+  top: 26%;
+  right: 8%;
+  text-align: center;
+  color: whitesmoke;
+}
+.h2-1 {
+  position: absolute;
+  top: 40%;
+  right: 18%;
+  color: whitesmoke;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.text-input {
+  position: absolute;
+  top: 51%;
+  right: 16%;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(216, 64, 137);
+  padding: 8px 20px;
+}
+.text-button {
+  position: absolute;
+  top: 63%;
+  right: 25%;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(216, 64, 137);
+  color: antiquewhite;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+.text-button1 {
+  position: absolute;
+  top: 63%;
+  right: 13.5%;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(216, 64, 137);
+  color: antiquewhite;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+.text-button2 {
+  position: absolute;
+  top: 75%;
+  right: 18.5%;
+  border: none;
+  background-color: transparent;
+  color: antiquewhite;
+  font-family: "Lucida Console", "Courier New", monospace;
+  cursor: pointer;
+  font-size: medium;
+}
+.text-button3 {
+  position: absolute;
+  top: 81%;
+  right: 19.5%;
+  border: none;
+  background-color: transparent;
+  color: antiquewhite;
+  font-family: "Lucida Console", "Courier New", monospace;
+  cursor: pointer;
+}

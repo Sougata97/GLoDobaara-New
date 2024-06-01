@@ -1,0 +1,133 @@
+.nav {
+  width: 100%;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  z-index: 999;
+  justify-content: space-between;
+}
+
+.nav > .nav-header {
+  display: inline;
+  width: 200px;
+}
+.nav > .nav-header .logo {
+  display: flex;
+}
+.nav > .nav-header img {
+  width: 100%;
+}
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: flex;
+  float: right;
+  font-size: 22px;
+  background-color: var(--pink);
+  padding: 10px 20px;
+  border: 2px solid rgb(146, 128, 128);
+  padding-right: 0;
+  border-right: 0;
+}
+
+.nav > .nav-links > a {
+  display: inline-flex;
+  margin-right: 70px;
+  text-decoration: none;
+  color: #efefef;
+  position: relative;
+  overflow: hidden;
+  font-family: helvel;
+  font-weight: 400;
+  flex-direction: row;
+}
+.nav > .nav-links > a > p {
+  margin-left: 15px;
+}
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  bottom: 0;
+  left: -100%;
+  transition: 300ms;
+}
+.nav-links a:hover::after {
+  left: 0;
+}
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width: 790px) {
+  .nav > .nav-btn {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--pink);
+    padding: 8px 13px;
+    border-radius: 5px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    margin-bottom: 10px;
+    border-top: 2px solid #eee;
+    cursor: pointer;
+  }
+  .nav > .nav-btn > label > span:last-child {
+    margin-bottom: 0;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: var(--pink);
+    max-height: 0px;
+    transition: all 0.5s ease-in;
+    overflow: hidden;
+    top: 68px;
+    left: 0px;
+    z-index: 1000;
+    padding: 0;
+    border: 0;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 18px 0;
+    padding-left: 10px;
+    position: relative;
+    font-size: 18px;
+  }
+  .nav-links a::after {
+    height: 1px;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    max-height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    /*     height: calc(100vh - 50px); */
+    max-height: 200px;
+    overflow-y: hiddin;
+  }
+}

@@ -1,0 +1,20 @@
+.wd-box {
+  border: 1px solid;
+  border-radius: 12px;
+  box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.25);
+  justify-content: space-between;
+  /* padding: 0.25%; */
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  height: 60px;
+  width: 220px;
+}
+.wd-name {
+  margin-left: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #7a7a7a;
+  font-size: 13px;
+}

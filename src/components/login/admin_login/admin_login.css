@@ -1,0 +1,148 @@
+.admin_login{
+    background-color: white;
+    border-radius: 30px;
+    width: 75%;
+    height: 75%;
+    top: 12.5%;
+    left: 12.5%;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; 
+    background: rgb(216,64,137);
+    background: linear-gradient(0deg, rgba(216,64,137,1) 0%, rgba(41,105,177,1) 42%);
+    
+}
+.div1{
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+}
+.admin_login>div>img{
+    height: 100%;
+    width: 100%;
+}
+.centerp{
+    width: 100%; 
+    text-align: center;
+    color: #313FAC;
+    font-family: Poppins;
+    font-size: 24px;
+    margin: 30px;   
+}
+.leftp{
+    width: 100%; 
+    color: #313FAC;
+    font-family: Poppins;
+    font-size: 24px; 
+    margin: 50px 0 20px 50px;
+    text-align: left;
+}
+.admin_login>div>form{
+    justify-content: space-between;
+    margin: 50px 50px 0 50px;
+    text-align: center;
+}
+.admin_login>div>form>input{
+    border: none;
+    padding-top: 50px;
+    border-bottom: 2px solid #313FAC;
+    text-align: center;
+    width: 75%;
+    display: block;
+    margin-left: 50px;
+}
+
+.admin_login>div>form>input::placeholder{
+    color: #313FAC;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 22px; 
+    display: block;
+}
+.admin_login>div>form>button{
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    color: #313FAC;
+    font-size: 20px;
+    background-color: #ff1c6c;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Poppins;
+}
+.admin_login>div>form>div{
+    margin-bottom: 15px;
+}
+.admin_login>div>form>div>a{
+    font-family: Poppins;
+    color: #313FAC;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.admin_login>div>form>div>a:hover{
+    border-bottom: solid 2px #313FAC;
+    border-bottom-width: auto;
+}
+.custom-radio-btn {
+    --size: 10px;
+    min-width: var(--size);
+    border-radius: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer; 
+    margin-left: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: var(--size);
+    text-align: left;
+
+  }
+  .custom-radio-btn input {
+    display: none;
+  }
+  .custom-radio-btn .label {
+    margin-left: 15px;
+    font-family: Poppins;
+    font-size: 24px;
+    color: #313FAC;
+    text-align: left;
+  }
+  
+  .custom-radio-btn .checkmark {
+    --gap: 3px;
+    --border: 2px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: inline-block;
+    transition: opacity 0.5s ease;
+    border: var(--border) solid #313FAC;
+    padding: var(--gap);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .custom-radio-btn input:checked ~ .checkmark {
+    background-color: #313FAC;
+  }
+.admin_login>div>button{
+    border-radius: 0 50px 50px 0;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    background-color: #ff1c6c;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Poppins;
+}
+

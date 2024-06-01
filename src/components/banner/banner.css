@@ -1,0 +1,94 @@
+.banner {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  top: 0;
+}
+.banner img {
+  width: 100%;
+  outline: 1300px solid #2969b17a;
+  outline-offset: -990px;
+}
+.sm{
+  display: none;
+}
+.bannerText {
+  background-color: var(--pink);
+  width: 100%;
+  color: var(--white);
+  position: absolute;
+  font-size: 60px;
+  padding: 20px 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: immortal;
+}
+.bannerText::after{
+  position: absolute;
+  content: '';
+  height: 120%;
+  width: 100%;
+  background-color: var(--pink);
+  opacity: 50%;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+}
+.banner a{
+  position: absolute;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 15px;
+    border: 2px solid var(--white);
+    bottom: 30px;
+    right: 30px;
+    font-size: 16px;
+    z-index: 0;
+}
+.banner a::before{
+  content: "";
+  position: absolute;
+  background-color: var(--pink);
+  height: 0px;
+  width: 0px;
+  left: 0%;
+  top: 0%;
+  transition: 500ms;
+  z-index: -1;
+}
+.banner a:hover::before{
+  height: 100%;
+  width: 100%;
+}
+.banner a::after{
+  content: "";
+  position: absolute;
+  background-color: var(--pink);
+  height: 0px;
+  width: 0px;
+  right: 0%;
+  bottom: 0%;
+  transition: 500ms;
+  z-index: -1;
+}
+.banner a:hover::after{
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 767px){
+  .bannerText{
+    font-size: 32px;
+  }
+  .bg{
+    display: none;
+  }
+  .sm{
+    display: block;
+  }
+}
+@media (max-width: 600px){
+  .banner a{
+    padding: 5px 8px;
+    bottom: 15px;
+    right: 15px;
+  }
+}

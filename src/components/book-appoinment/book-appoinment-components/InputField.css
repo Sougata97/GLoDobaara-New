@@ -1,0 +1,31 @@
+.outer{
+  display: flex;
+  justify-content: left;
+  position: relative;
+  width: 30%;
+  height:48px;
+  border-radius:20px;
+}
+.ic{
+  max-width: max-content;
+  align-self: center;
+  margin-left: 10px;
+}
+.outer > legend{
+  font-size: 12px;
+  margin-left: 3%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+}
+.ipt{
+  outline: none;
+  border: none;
+  margin-left: 15%;
+  font-size: medium;
+}
+.bar{
+  border-left: 2px solid black;
+  height: 30px;
+  position: relative;
+  left: 4%;
+}

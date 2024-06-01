@@ -1,0 +1,37 @@
+.div-gen {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    width: 20%;
+    height:50px;
+    border-radius:20px;
+  }
+  .legend-gen{
+    margin-left: 4%;
+  }
+  .gen-bar{
+    border-left:2px solid black;
+    height:28px;
+    position:relative;
+    left: 14%;
+    padding-right: 12%;
+  }
+  .gen-place{
+    margin-left: 10%;
+    outline: none;
+    font-size: medium;
+    border:none;
+    display: none;
+  }
+  .gen-label {
+    background: white;
+    cursor: pointer;
+    opacity: 1;
+    transition: background 0.1ms;
+    margin-left: 16%;
+    font-size: medium;
+  }
+  .gen-place:checked + .gen-label {
+    background: rgba(40, 106, 178, 0.2);
+    border-radius: 15px 15px 15px 15px;
+  }

@@ -1,0 +1,75 @@
+.login .login_box{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(216,64,137);
+    background: linear-gradient(0deg, rgba(216,64,137,1) 0%, rgba(41,105,177,1) 42%);
+}
+.login .login-box:nth-child(1){
+    color: var(--white);
+    margin-bottom: 30px;
+    text-align: center;
+}
+.login .login-box:nth-child(1) img{
+    width: 200px;
+    border-radius: 40px;
+}
+.login .login-box:last-child{
+    margin: 0;
+}
+.login .login_box a{
+     position: absolute;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 15px;
+    border: 2px solid var(--white);
+    font-size: 16px;
+    z-index: 0;
+    margin-right: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.login .login_box a::after{
+    content: "";
+    position: absolute;
+    background-color: var(--pink);
+    height: 0px;
+    width: 0px;
+    right: 0%;
+    bottom: 0%;
+    transition: 500ms;
+    z-index: -1;
+}
+.login .login_box a::before{
+    content: "";
+    position: absolute;
+    background-color: var(--pink);
+    height: 0px;
+    width: 0px;
+    left: 0%;
+    top: 0%;
+    transition: 500ms;
+    z-index: -1;
+}
+.login .login_box a:hover::before{
+    height: 100%;
+    width: 100%;
+}
+.login .login_box a:hover::after{
+    height: 100%;
+    width: 100%;
+}
+.login .login_box a:last-child{
+    margin: 0;
+}
+.login .login-box:nth-child(2){
+    position: relative;
+    width: 100%;
+}
+.login .login-box:nth-child(3){
+    position: relative;
+    width: 100%;
+    top: 60px;
+}

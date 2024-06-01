@@ -1,0 +1,68 @@
+.pop-form-drbdwn-inp1 {
+    display: flex;
+    flex-direction: row;
+    overflow: clip;
+    width:30%;
+    border-radius: 15px;
+  }
+  .LegRelation1{
+    margin-left: -30%;
+  }
+  .user-rlt11{
+    margin-top: 3px;
+    margin-right: 50px;
+    margin-left:18px;
+  }
+  .rlt-bar11{
+    border-left:2px solid black;
+    height:25px;
+    position:relative;
+    right: 10%;
+  }
+  
+  .pop-form-drbdwn-btn1 {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
+  .pop-inp1 {
+    border: none;
+    outline: none;
+    border:#5E5E5F;
+    margin-left: -5%;
+    font-size: 14px;
+  }
+  .pop-inp1::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .pop-inp1:active {
+    outline: none;
+    border: none;
+  }
+  .pop-form-drbdwn-inp1 {
+    display: flex;
+    flex-direction: row;
+    overflow: clip;
+  }
+  .drpdwn-menu1 {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    align-self:flex-start;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    overflow-y: scroll;
+  }
+  .drpdwn-menu-ops1 {
+    background-color: transparent;
+    border: none;
+    color: #5E5E5F;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+  }
+  .drpdwn-menu-ops1:hover {
+    background: rgba(40, 106, 178, 0.2);;
+  }

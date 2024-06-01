@@ -1,0 +1,26 @@
+.GenRad{
+    display: inline-flex;
+    overflow: hidden;
+    border: 1px solid #5E5E5F;
+    border-radius: 25px;
+    justify-content: space-evenly;
+}
+.inputrad{
+    display: none;
+}
+.labelRad{
+    padding: 20px 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #5E5E5F;
+    background: white;
+    transition: background 0.1s;
+}
+.labelRad:not(:last-of-type){
+    border-right: 1px solid #5E5E5F;
+    padding-right: -10%;
+}
+.inputrad:checked + .labelRad{
+    background: rgba(40, 106, 178, 0.2);
+    text-decoration: underline #2963AC;
+}

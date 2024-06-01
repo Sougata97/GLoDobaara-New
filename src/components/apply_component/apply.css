@@ -1,0 +1,136 @@
+.apply{
+    background: rgb(216,64,137);
+background: linear-gradient(0deg, rgba(216,64,137,1) 0%, rgba(41,105,177,1) 42%);
+}
+.box-left-apply{
+    width: 55%;
+    color: var(--white);
+    margin-left: 200px;
+}
+.box-left-apply h2, .box-left-apply h3{
+    display: inline-block;
+    
+}
+.box-left-apply h2{
+    font-weight: 900;
+    font-size: 32px;
+}
+.box-left-apply h3{
+    font-weight: 300;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.box-left-apply h5{
+    margin-bottom: 10px;
+}
+.box-left-apply p{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.box-left-apply a{
+    position: relative;
+    background-color: var(--white);
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    padding: 5px 10px;
+    font-weight: 500;
+}
+.box-left-apply a::before{
+  content: "";
+  position: absolute;
+  background-color: var(--blue);
+  height: 0px;
+  width: 0px;
+  right: 0%;
+  top: 0%;
+  transition: 500ms;
+}
+.box-left-apply a:hover::before{
+  height: 100%;
+  width: 100%;
+}
+.box-left-apply a::after{
+  content: "";
+  position: absolute;
+  background-color: var(--blue);
+  height: 0px;
+  width: 0px;
+  left: 0%;
+  bottom: 0%;
+  transition: 500ms;
+}
+.box-left-apply a:hover::after{
+  height: 100%;
+  width: 100%;
+}
+.box-left-apply span{
+    position: relative;
+    z-index: 2;
+}
+.box-left-apply a:hover span{
+    color: var(--white);
+}
+.about-box-apply{
+    justify-content: space-between;
+    padding: 50px 0;
+    display: flex;
+}
+.box-right-apply {
+    background-color: var(--pink);
+    width: 100%;
+    color: var(--white);
+    font-size: 30px;
+    padding-left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+.box-right-apply{
+    width: 45%;
+}
+.box-right-apply img{
+    width: 100%;
+}
+.box-left-apply img{
+    width: 100%;
+}
+.leftimg{
+    width: 48%;
+}
+.centerimg{
+    width: 25%;
+}
+.rightimg{
+   width: 25%;
+}
+.leftimg img,.centerimg img,.rightimg img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 767px){
+
+    .box-left-apply,.box-right-apply{
+        width: 80%;
+    }
+    .box-left-apply{
+        margin: 0;
+    }
+    .box-left-apply,.box-right-apply{
+        width: 100%;
+    }
+}
+@media (max-width: 667px){
+    
+    .about-box-apply{
+        flex-wrap: wrap-reverse;
+    }
+    .sp-wrap-about{
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .leftimg,.centerimg,.rightimg{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 15px;
+        box-shadow: 5px 6px 7px 0px #0000002b;
+    }
+}

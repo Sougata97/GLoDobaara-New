@@ -1,0 +1,27 @@
+.hd-pop-fh {
+  width: 55%;
+  padding-left: 30%;
+  padding-top: 2%;
+  height: 284px;
+}
+.hd-ld-name {
+  margin-left: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #7a7a7a;
+}
+.hd-weekday {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 2%;
+}
+.hd-wekday {
+  margin-left: 2%;
+  margin-top: -10px;
+}
+.hd-ld-scrollview {
+  width: auto;
+  height: 50%;
+  overflow-y: scroll;
+}

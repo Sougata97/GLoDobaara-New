@@ -1,0 +1,124 @@
+.about_concept{
+    background: rgb(216,64,137);
+background: linear-gradient(0deg, rgba(216,64,137,1) 0%, rgba(41,105,177,1) 42%);
+padding: 40px 0;
+}
+.box-left{
+    width: 55%;
+    color: var(--white);
+    margin-right: 30px;
+}
+.box-left h2, .box-left h3{
+    display: inline-block;
+    
+}
+.box-left h2{
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.box-left h3{
+    font-weight: 300;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.box-left h5{
+    margin-bottom: 10px;
+}
+.box-left p{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.box-left a{
+    position: relative;
+    background-color: var(--white);
+    border: 2px solid var(--pink);
+    color: var(--blue);
+    padding: 5px 10px;
+    font-weight: 500;
+}
+.box-left a::before{
+  content: "";
+  position: absolute;
+  background-color: var(--pink);
+  height: 0px;
+  width: 0px;
+  right: 0%;
+  top: 0%;
+  transition: 500ms;
+}
+.box-left a:hover::before{
+  height: 100%;
+  width: 100%;
+}
+.box-left a::after{
+  content: "";
+  position: absolute;
+  background-color: var(--pink);
+  height: 0px;
+  width: 0px;
+  left: 0%;
+  bottom: 0%;
+  transition: 500ms;
+}
+.box-left a:hover{
+    border: 2px solid var(--white);
+}
+.box-left a:hover::after{
+  height: 100%;
+  width: 100%;
+}
+.box-left span{
+    position: relative;
+    z-index: 2;
+}
+.box-left a:hover span{
+    color: var(--white);
+}
+.about-box{
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.box-right{
+    width: 45%;
+}
+.box-right img{
+    width: 100%;
+}
+.more_box{
+    flex-direction: column-reverse;
+}
+.more_box .box-left{
+    width: 100%;
+    margin: 0;
+}
+.more_box .box-left ion-icon{
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: -1px;
+}
+.box-left-spcl{
+     margin: 0;
+     margin-left: 30px;
+     text-align: end;
+}
+@media (max-width: 767px){
+    .about-box{
+        flex-direction: column-reverse;
+    }
+    .box-left,.box-right{
+        width: 80%;
+    }
+    .box-left{
+        margin: 0;
+    }
+.box-left-spcl{
+    margin-left: 0;
+}
+
+}
+@media (max-width: 525px){
+    .box-left,.box-right{
+        width: 100%;
+    }
+}

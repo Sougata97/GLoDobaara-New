@@ -1,0 +1,137 @@
+.hd-main-container {
+  padding-bottom: 10px;
+}
+.hd-inside-first-box {
+  border-radius: 12px;
+  flex-direction: row;
+}
+.hd-top-text {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.text {
+  text-align: center;
+  font: Inter;
+  font-size: 26px;
+  font-weight: 700;
+  color: #7a7a7a;
+  padding-top: 52px;
+}
+.hd-first-box {
+  width: 55%;
+  padding-left: 30%;
+  padding-top: 52px;
+  /* flex-direction: column; */
+}
+.hd-showmore-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hd-first-button {
+  height: 42px;
+  width: 165px;
+  border: 2px solid;
+  font-family: Lato;
+  font-size: 16px;
+  border-radius: 9px;
+  background-color: #2963ac;
+  border-color: #2963ac;
+  color: white;
+  cursor: pointer;
+}
+
+.hd-second-box {
+  width: 55%;
+  padding-left: 30%;
+  padding-top: 52px;
+}
+.hd-mid-box {
+  width: 55%;
+  padding-left: 30%;
+  padding-top: 52px;
+  display: flex;
+}
+.hd-third-box {
+  width: 55%;
+  padding-left: 30%;
+  padding-top: 52px;
+}
+.hd-inside-second-box {
+  border-radius: 12px;
+  flex-direction: row;
+}
+.hd-inside-third-box {
+  border-radius: 12px;
+}
+.hd-bottom-btn {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 25%;
+  padding-right: 9%;
+}
+.hd-ld-name {
+  margin-left: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #7a7a7a;
+}
+.hd-bc {
+  background-color: #e5edf5;
+  border-radius: 10px;
+  width: 100%;
+  height: 74px;
+  display: flex;
+  justify-content: end;
+  margin-top: 12.8px;
+}
+.hd-label {
+  display: flex;
+  justify-content: end;
+  padding: 2.7%;
+  font-size: auto;
+  color: #5e5e5f;
+}
+.hd-input {
+  height: 20px;
+  margin-top: 2.7%;
+  margin-right: 2%;
+  background-color: #e5edf5;
+  border-color: #aaaaaa;
+  border-radius: 5px;
+}
+.hd-txt-person {
+  font-size: 26px;
+  color: #5e5e5f;
+  margin-right: 2%;
+}
+.hd-prsn-count {
+  margin: 0.5%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #aaaaaa;
+  border-radius: 12px;
+  width: 15%;
+  justify-content: space-evenly;
+  display: flex;
+}
+.hd-prsn-count > button {
+  border: 1px;
+  height: 20px;
+  font-size: x-large;
+  background-color: #ffffff;
+  color: #5e5e5f;
+}
+.hd-prsn-count > h3 {
+  color: #5e5e5f;
+}
+.hd-pop-fh > fieldset {
+  border-radius: 12px;
+}
+.hd-fh-rdbtn{
+  display: flex;
+}
+.hd-drpdwn{
+  flex-direction: column;
+}

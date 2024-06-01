@@ -1,0 +1,13 @@
+.background-image {
+  background-color: #c71d6d;
+  box-sizing: border-box;
+  height: 500px;
+  width: 100%;
+  background-image: url("./spcb.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.logo-image {
+  width: 20%;
+  margin-top: 1%;
+}

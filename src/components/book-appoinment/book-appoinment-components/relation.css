@@ -1,0 +1,30 @@
+.div-rlt {
+  display: flex;
+  justify-content: left;
+  position: relative;
+  width: 20%;
+  height:50px;
+  border-radius:20px;
+}
+.user-rlt{
+  margin-top: -8px;
+}
+.legend-rlt{
+  margin-left: 4%;
+}
+.rlt-bar{
+  border-left:2px solid black;
+  height:25px;
+  position:relative;
+  left: 6%;
+}
+.rlt-place{
+  margin-left: 15%;
+  outline: none;
+  font-size: medium;
+  border:none;
+}
+.rlt-drop{
+  top:-10%;
+  margin-top: -10px;
+}

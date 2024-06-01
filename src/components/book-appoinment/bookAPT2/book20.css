@@ -1,0 +1,77 @@
+.apt20-content {
+  padding: 40px 0;
+}
+.apt20-content .apt20-box-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.apt20-content .apt20-box-wrap .apt20_left {
+  width: 15%;
+}
+.apt20-content .apt20-box-wrap .apt20_right {
+  width: 80%;
+}
+.apt20form .apt2person {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin-bottom: 45px;
+}
+.apt20name {
+  display: flex;
+  align-items: center;
+  width: 350px;
+}
+.apt20name img {
+  padding-right: 10px;
+  width: 15px;
+  border-right: 2px solid #5e5e5f;
+}
+.apt20name input {
+  padding-left: 10px;
+}
+.apt20form .apt20dob img {
+  padding-right: 10px;
+  width: 15px;
+  border-right: 2px solid #5e5e5f;
+}
+.apt20form .apt20dob input {
+  padding-left: 10px;
+}
+.apt20form fieldset {
+  border-radius: 20px;
+}
+.apt20name input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.apt20name input::placeholder {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #aaaaaa;
+}
+.apt20form .apt2person .apt20gender{
+    display: flex;
+}
+.apt2person .apt20dob{
+    display: flex;
+}
+.apt2person .apt20dob input{
+border: none;
+outline: none;
+}
+.apt20form .apt2person .apt20gender .apt20male{
+    padding: 0 15px;
+    border-right: 2px solid #5E5E5F;
+}
+.apt20form .apt2person .apt20gender .apt20fmale{
+    padding: 0 15px;
+}
+.apt20form a{
+    color: #2963AC;
+}

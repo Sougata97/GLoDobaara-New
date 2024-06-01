@@ -1,0 +1,90 @@
+.radioButton {
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.25);
+  width: 30%;
+  height: 80%;
+  justify-content: space-between;
+  padding: 0.25%;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  margin: 1%;
+  cursor: pointer;
+}
+.rdb-icon {
+  margin-right: 5px;
+  height: 50px;
+  width: 50px;
+  color: #2963ac;
+  margin: auto;
+  cursor: pointer;
+}
+.rdb-name {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  cursor: pointer;
+}
+.rdb-name > p {
+  margin: auto;
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+.rdb-input-button {
+  margin-top: auto;
+  margin-bottom: auto;
+  object-fit: contain;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.buttonlabel {
+  margin-left: 5%;
+}
+.radioButton:has(> .input-button:checked) {
+  background-color: rgba(41, 99, 172, 0.2);
+}
+
+@media screen and (max-width: 900px) {
+  .rdb-icon {
+    height: 30px;
+    width: 30px;
+  }
+  .rdb-name > p {
+    font-size: 12px;
+    margin-left: 25px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .rdb-input-button {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .rdb-icon {
+    height: 20px;
+    width: 20px;
+  }
+  .rdb-name > p {
+    font-size: 12px;
+    margin-left: 0px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .rdb-input-button {
+    height: 15px;
+    width: 15px;
+  }
+}
+@media only screen and (max-width: 380px) {
+}

@@ -131,13 +131,12 @@
   .calendar-container-right
   {
     width: 70%;
-    /* height: 100%; */
-    /* display: flex; */
+
     justify-content: center;
   }
   .react-calendar{
     width: 100%;
-    /* margin: 50px; */
+    
     
   }
   .react-calendar__viewContainer
@@ -170,8 +169,7 @@
 
   }
   .react-calendar__month-view__days{
-    row-gap: 50px
-    ;
+    row-gap: 50px;
   }
   .react-calendar__month-view__days__day
   {

@@ -35,7 +35,6 @@
   height: 20px;
   cursor: pointer;
   margin-right: 5%;
-  /* font-size: 20px; */
 }
 .hd-radioButton:has(> .hd-input-button:checked) {
   background-color: rgba(41, 99, 172, 0.2);

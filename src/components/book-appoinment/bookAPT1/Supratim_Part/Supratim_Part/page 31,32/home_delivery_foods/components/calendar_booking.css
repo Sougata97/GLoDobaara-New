@@ -1,8 +1,6 @@
 .react-calendar {
     width: 350px;
     max-width: 100%;
-    /* background: rgba(40, 106, 178, 0.12);; */
-    /* border: 1px solid #a0a096; */
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.125em;
   }
@@ -34,25 +32,17 @@
     border: 0;
     outline: none;
     border-radius: 50%;
-    /* flex: 0 0 5.5% !important; */
-    /* height: 30px;
-    width: 20px; */
-    /* color: #2963AC; */
+    
     
   }
-  /* .react-calendar button abbr
-  {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-  } */
+  
   .react-calendar button:enabled:hover {
     cursor: pointer;
   }
   .react-calendar__navigation {
     display: flex;
     height: 44px;
-    /* margin-bottom: 1em; */
+    
   }
   .react-calendar__navigation button {
     min-width: 44px;
@@ -72,7 +62,7 @@
     font-weight: bold;
     font-size: 0.75em;
     color:#5E5E5F;
-    ;
+    
   }
   .react-calendar__month-view__weekdays__weekday {
     padding: 0.5em;
@@ -87,9 +77,9 @@
     
   }
   .react-calendar__month-view__days__day--weekend {
-    /* color: #d10000; */
+    
     color: #2963AC;
-    ;
+    
   }
   .react-calendar__month-view__days__day--neighboringMonth {
     color: #757575 !important;
@@ -110,18 +100,8 @@
   .react-calendar__tile:disabled {
     background-color: #f0f0f0;
   }
-  /* .react-calendar__tile:enabled:hover,
-  .react-calendar__tile:enabled:focus {
-    background-color: #e6e6e6;
-    
-  } */
-  /* .react-calendar__tile--now {
-    background: #ffff76;
-  } */
+  
   .react-calendar__tile--now:enabled:hover,
-  /* .react-calendar__tile--now:enabled:focus {
-    background: #ffffa9;
-  } */
   .react-calendar__tile--hasActive {
     background: #76baff;
   }
@@ -133,10 +113,7 @@
     background :  #94B5D9;
     
   }
-  /* .react-calendar__tile--active:enabled:hover,
-  /* .react-calendar__tile--active:enabled:focus {
-    background: #2963AC;
-  } */ */
+  
   .react-calendar--selectRange .react-calendar__tile--hover {
     background-color: #e6e6e6;
   }
@@ -153,13 +130,12 @@
   .calendar-container-right
   {
     width: 100%;
-    /* height: 100%; */
+    
     display: flex;
     justify-content: center;
   }
   .react-calendar{
     width: 100%;
-    /* margin: 50px; */
     
   }
   .react-calendar__viewContainer
@@ -192,8 +168,7 @@
 
   }
   .react-calendar__month-view__days{
-    row-gap: 50px
-    ;
+    row-gap: 50px;
   }
   .react-calendar__month-view__days__day
   {

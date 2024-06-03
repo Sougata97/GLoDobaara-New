@@ -126,7 +126,6 @@
     max-height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    /*     height: calc(100vh - 50px); */
     max-height: 200px;
     overflow-y: hiddin;
   }

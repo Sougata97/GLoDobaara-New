@@ -54,7 +54,6 @@
   font-weight: 700;
   font-size: 25px;
   line-height: 29px;
-  /* identical to box height */
   text-align: center;
   color: #5e5e5f;
 }
@@ -176,7 +175,7 @@
   display: flex;
   align-items: center;
 }
-/*  */
+
 .apt2duration_select {
   width: 380px;
   margin: 0 auto;
@@ -199,7 +198,7 @@
   padding-right: 15px;
   border-right: 3px solid #5e5e5f;
 }
-/*  */
+
 
 select {
   appearance: none;
@@ -212,24 +211,17 @@ select {
   width: 300px;
   padding: 2px 15px;
 }
-/* Remove IE arrow */
+
 select::-ms-expand {
   display: none;
 }
-/* Custom Select wrapper */
+
 .select {
   position: relative;
   display: flex;
   overflow: hidden;
 }
-/* Arrow */
-/* .select::before {
-  content: "";
- background-image: url(./updown.png);
- position: absolute;
- width: 100%;
- height: 100%;
-} */
+
 .apt2-btns {
   margin-top: 25px;
   display: flex;
@@ -273,14 +265,12 @@ select::-ms-expand {
 .apt2-btns .apt2-btns_right a:last-child {
   background: #2963ac;
 }
-/* Transition */
+
 .select:hover::after {
   color: #f39c12;
 }
 
-/* Other styles*/
 
-/*  */
 .container-radio {
   display: block;
   position: relative;
@@ -291,14 +281,13 @@ select::-ms-expand {
   user-select: none;
 }
 
-/* Hide the browser's default radio button */
+
 .container-radio input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
-/* Create a custom radio button */
 .checkmark {
   position: absolute;
   top: 0;
@@ -310,12 +299,7 @@ select::-ms-expand {
   display: none;
 }
 
-/* On mouse-over, add a grey background color */
-/* .container-radio:hover input ~ .checkmark {
-  background-color: #ccc;
-} */
 
-/* When the radio button is checked, add a blue background */
 .apt2timeswrap input:checked #apt2timeul li::before {
   height: 100% !important;
   width: 100% !important;
@@ -326,8 +310,7 @@ select::-ms-expand {
   width: 100% !important;
 }
 
-/*  */
-/* Banner */
+
 .BookBanner img {
   outline: none;
 }
@@ -349,9 +332,7 @@ select::-ms-expand {
 .BookBanner .BookBannerText img {
   margin-right: 3px;
 }
-/* Banner */
 
-/* mediaquery */
 @media only screen and (max-width: 991px) {
   .apointment2maincontent {
     flex-direction: column;

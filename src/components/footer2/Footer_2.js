@@ -12,8 +12,8 @@ export default function Footer_2() {
               <h3>ABOUT</h3>
               <p>
                 G Lo Dobaara" (popularly known as “GLD”) is a distinct Strategic
-                Business Unit (SBU) of Abchi Technologies Private Limited and an
-                initiative of social entrepreneurship.
+                Business Unit (SBU) of Abchi Infrastructure Private Limited and
+                an initiative of social entrepreneurship.
               </p>
             </div>
             <div className="footer-box2">
